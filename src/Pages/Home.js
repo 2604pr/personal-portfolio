@@ -59,14 +59,14 @@ function Home() {
   }, []);
 
   return (
-    <main className="flex justify-center items-center mt-20 ">
+    <main className=" justify-center items-center md:flex lg:flex xl:flex 2xl:flex  ">
       
-      <div className="flex justify-left items-center w-1/5 ml-20 ">
+      <div className="ml-10 max-w-xs sm:ml-20 flex justify-left items-center 2xl:w-1/2  sm:w-1/7 md:w-1/4 md:mt-20 " >
         <img ref={myimageref} className="" src={img} alt="Pranshu Patel" />
       </div>
 
 
-      <div className="ml-20 mt-1">
+      <div className="ml-10 md:mt-20 mt-10 ">
         <h1
           ref={h11}
           className="text-2xl text-dark-heading dark:text-teal-600 md:text-2xl xl:text-4xl xl:leading-tight font-bold"
